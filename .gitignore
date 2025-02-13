@@ -1,0 +1,34 @@
+﻿# Visual Studio.gitignore for C# projects
+
+## Ignore Visual Studio specific files
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+## Ignore build outputs
+bin/
+obj/
+out/
+
+## Ignore NuGet Packages
+*.nupkg
+packages/
+project.lock.json
+project.assets.json
+
+## Ignore JetBrains Rider project files
+.idea/
+*.sln.iml
+
+## Ignore temporary files
+*.log
+*.tlog
+*.cache
+*.tmp
+
+## Ignore deployment related files
+.publish/
+
+# End of .gitignore
